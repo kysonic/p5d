@@ -1,4 +1,4 @@
-#Task: 
+# Task: 
 
 Create a small JavaScript / HTML / CSS page that loads list projects from our gallery page and previews them.
 
