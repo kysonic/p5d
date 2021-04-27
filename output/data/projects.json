@@ -1,0 +1,36 @@
+{
+    "items": [
+        {
+            "name": "Bedroom",
+            "cdate": "2021-04-15 17:52:07",
+            "udate": "2021-04-20 16:45:38",
+            "s": "0",
+            "hash": "93d6e127a80053040d000920f3863c8e",
+            "gstatus": "6",
+            "cstatus": "0",
+            "folder": "0",
+            "udate_thumbnail": null,
+            "fuid": "0",
+            "shared": 1,
+            "readOnly": 0,
+            "isCurContest": false
+        },
+        {
+            "name": "Bedroom",
+            "cdate": "2021-04-13 18:46:36",
+            "udate": "2021-04-13 18:49:47",
+            "s": "0",
+            "hash": "7d944734354c8021f6219ecef62a25b3",
+            "gstatus": "6",
+            "cstatus": "0",
+            "folder": "0",
+            "udate_thumbnail": null,
+            "fuid": "0",
+            "shared": 1,
+            "readOnly": 0,
+            "isCurContest": false
+        }
+    ],
+    "copyright": "Planner 5D®© 2011—2021",
+    "error": 0
+}

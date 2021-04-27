@@ -1,0 +1,6 @@
+{
+  "env": "prod",
+  "api": {
+    "baseUrl": "https://planner5d.com/api"
+  }
+}

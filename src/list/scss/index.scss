@@ -1,0 +1,28 @@
+@import '../../common/scss/theme';
+@import '../../common/scss/reset';
+@import '../../common/scss/header';
+
+.b-list {
+  --list-item-backgroud-color: #efeded;
+
+  padding: 10px;
+
+  &__item {
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: var(--list-item-backgroud-color);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    &:not(&:first-child) {
+      margin-top: 10px;
+    }
+
+    &-title {
+      padding: 10px;
+      color: darken($textColor, 0.7);
+    }
+  }
+}

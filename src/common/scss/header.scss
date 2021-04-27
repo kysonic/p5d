@@ -1,0 +1,63 @@
+@import './theme';
+
+.b-header {
+    --header-text-color: var(--text-color);
+    --header-bg-color: var(--primary-background);
+    --header-border-color: #dee5e8;
+    --header-container-border-color: transparent;
+    --header-logo-text-color: #363636;
+    --header-logo-fill: #20bd57;
+    --header-logo-text-color-hover: #20bd57;
+    --header-logo-fill-hover: #20bd57;
+
+    padding: 0 20px;
+    z-index: 30;
+    color: var(--header-text-color);
+    background-color: var(--header-bg-color);
+    border-bottom: 1px solid var(--header-border-color);
+    height: 3.75rem;
+    transition-property: transform, background-color, color, border-color;
+    transition-timing-function: cubic-bezier(0, 0.4, 0.2, 1);
+    transition-duration: 0.2s;
+
+    &__container {
+        flex-grow: 1;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: stretch;
+        border-bottom: 1px solid var(--header-container-border-color);
+        height: 3.75rem;
+    }
+
+    &__brand {
+        display: flex;
+        align-items: stretch;
+        flex-shrink: 0;
+    }
+
+    &__logo {
+        display: inline-flex;
+        align-items: center;
+        vertical-align: middle;
+        color: var(--header-logo-text-color);
+        fill: var(--header-logo-fill);
+        transition: none;
+
+        &-image {
+            width: 120px;
+            min-width: 120px;
+            height: 32px;
+            margin-top: -4px;
+            color: inherit;
+            fill: inherit;
+        }
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: var(--header-logo-text-color-hover);
+        fill: var(--header-logo-fill-hover);
+    }
+}
