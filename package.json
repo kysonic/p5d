@@ -4,7 +4,7 @@
     "build": "rollup --config=rollup.config.js",
     "serve": "serve ./output",
     "server": "nodemon --watch \"server/**\" --ext \"ts,json\" --exec \"ts-node server/index.ts\"",
-    "scrape": "ts-node server/scrape.ts",
+    "scrape": "ts-node --project ./server/tsconfig.json server/scrape.ts",
     "test": "jest"
   },
   "devDependencies": {

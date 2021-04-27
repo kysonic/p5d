@@ -46,7 +46,7 @@ Good luck!
 
 ### Run project
 
-1. Install [Node](https://nodejs.org/en/download/)
+1. Install [Node](https://nodejs.org/en/download/) (>=12.8)
 2. Install [Yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable)
 
 3. Install dependencies
