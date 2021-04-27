@@ -3,7 +3,7 @@
     "dev": "rollup --config=rollup.config.js -w & yarn serve & yarn server",
     "build": "rollup --config=rollup.config.js",
     "serve": "serve ./output",
-    "server": "nodemon --watch \"server/**\" --ext \"ts,json\" --exec \"ts-node server/index.ts\"",
+    "server": "nodemon --project ./server/tsconfig.json --watch \"server/**\" --ext \"ts,json\" --exec \"ts-node server/index.ts\"",
     "scrape": "ts-node --project ./server/tsconfig.json server/scrape.ts",
     "test": "jest"
   },
